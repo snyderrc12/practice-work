@@ -1,5 +1,12 @@
-h1, p{
+body{
 
 	color: blue;
-	background:yellow;
+	background-color:#DC143C;
+}
+
+h1{
+	color: #483D8B;
+}
+
+p{	color:white;
 }
