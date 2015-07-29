@@ -1,13 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Limelight);
 body{
 
 	color: blue;
 	background-color:#F08080;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Lora', serif;
 }
 
 h1{
 	color: #483D8B;
 	font-size: 40px;
+	font-family: 'Limelight', sans-serif;
 }
 
 p{	color:white;
