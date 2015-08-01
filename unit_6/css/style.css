@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: "Brawler", serif;
+}
+
+header {
+	background-color: #E8E8E8;
+}
+
+h1 {
+	margin: 0 0 2em 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+img {
+}
+
+figcaption {
+
+}
+
+figure {
+
+}
+
+hr {
+	size: 5px;
+	color: #000;
+	width: 100%;
+	margin-bottom: 4em;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	float: right;
+	font-size:2em;
+	margin: 0;
+	
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	float: left;
+	padding: 0 2em;
+	decoration: none;
+	margin: 0;
+
+}
+
+p {
+	line-height: 1.5em;
+	margin: auto;
+	padding: 4%;
+}
+
+footer {
+	text-align: center;
+	background-color: #D1D1D1;
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+
+#wordmark {
+	float: left;
+}
+
+#wm {
+	width: 8%;
+	margin: 1em;
+	outline: solid 4px #000;
+	float: left;
+
+}
+
+#sh1 {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding: 2em 0 0 0;
+}
+
+.images {
+	float: left;
+	width: 30%;
+	padding: 2%;
+	outline: solid 3px #000;
+	background-color: #EDEDED;
+	margin: 0 2em 2em 0;
+
+
+}
+
+
+.clearfix:after {     
+	visibility: hidden;     
+	display: block;     
+	font-size: 0;     
+	content: " ";     
+	clear: both;     
+	height: 0; 
+} 
+
+#images {
+	margin-left: 2%;
+
+}
+
+#figures {
+	text-align: center;
+}
+
+#blogimg {
+	width: 30%;
+	display: block;
+	margin: auto;
+}
