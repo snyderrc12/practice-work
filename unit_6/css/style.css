@@ -24,19 +24,12 @@ h1 {
 img {
 }
 
-figcaption {
-
-}
-
-figure {
-
-}
 
 hr {
-	size: 5px;
+	height: 3px;
 	color: #000;
-	width: 100%;
-	margin-bottom: 4em;
+	background-color: #000;
+
 }
 a {
 	text-decoration: none;
@@ -51,6 +44,7 @@ nav {
 	float: right;
 	font-size:2em;
 	margin: 0;
+	padding: 15px;
 	
 }
 
@@ -61,7 +55,7 @@ ul {
 
 li {
 	float: left;
-	padding: 0 2em;
+	padding: 0 1em;
 	decoration: none;
 	margin: 0;
 
@@ -78,16 +72,18 @@ footer {
 	background-color: #D1D1D1;
 	font-size: 1.5em;
 	margin-top: 2em;
+	padding: 15px;
 }
 
 #wordmark {
 	float: left;
+	width: 50%;
 }
 
 #wm {
-	width: 8%;
+	width: 10%;
 	margin: 1em;
-	outline: solid 4px #000;
+	outline: solid 2px #000;
 	float: left;
 
 }
@@ -104,10 +100,8 @@ footer {
 	width: 30%;
 	padding: 2%;
 	outline: solid 3px #000;
-	background-color: #EDEDED;
+	background-color: none;
 	margin: 0 2em 2em 0;
-
-
 }
 
 
@@ -120,8 +114,33 @@ footer {
 	height: 0; 
 } 
 
+.heading {
+	width: 30%;
+	float: none;
+	display: inline;
+	padding-top: 1em;
+}
+
+.pfloat1 {
+	float: left;
+	width: 18%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.pfloat {
+	float: right;
+	width: 74%;
+	margin-left: 1%;
+	margin-right: 3%;
+	padding-left: 0%;
+}
+
+
+
+
 #images {
 	margin-left: 2%;
+
 
 }
 
