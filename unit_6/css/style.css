@@ -29,6 +29,7 @@ hr {
 	height: 3px;
 	color: #000;
 	background-color: #000;
+	margin-top: 1em
 
 }
 a {
@@ -42,9 +43,9 @@ a:hover {
 
 nav {
 	float: right;
-	font-size:2em;
+	font-size:1.25em;
 	margin: 0;
-	padding: 15px;
+	padding: 25px;
 	
 }
 
@@ -56,7 +57,6 @@ ul {
 li {
 	float: left;
 	padding: 0 1em;
-	decoration: none;
 	margin: 0;
 
 }
@@ -64,13 +64,13 @@ li {
 p {
 	line-height: 1.5em;
 	margin: auto;
-	padding: 4%;
+	padding: .5em;
 }
 
 footer {
 	text-align: center;
 	background-color: #D1D1D1;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin-top: 2em;
 	padding: 15px;
 }
@@ -89,7 +89,7 @@ footer {
 }
 
 #sh1 {
-	width: 60%;
+	width: 40%;
 	display: block;
 	margin: auto;
 	padding: 2em 0 0 0;
@@ -97,11 +97,11 @@ footer {
 
 .images {
 	float: left;
-	width: 30%;
+	width: 29.33%;
 	padding: 2%;
 	outline: solid 3px #000;
 	background-color: none;
-	margin: 0 2em 2em 0;
+	margin: 0 2% 4%;
 }
 
 
@@ -116,9 +116,18 @@ footer {
 
 .heading {
 	width: 30%;
-	float: none;
+	float: left;
 	display: inline;
-	padding-top: 1em;
+	padding-top: 40px;
+
+}
+
+.photo2 {
+	float: right;
+	width: 20%;
+	padding-top: 20px;
+	padding-right: 61.5px;
+	margin-right: 10px;
 }
 
 .pfloat1 {
@@ -139,7 +148,8 @@ footer {
 
 
 #images {
-	margin-left: 2%;
+	margin: auto;
+	width: 1400px;
 
 
 }
@@ -149,7 +159,8 @@ footer {
 }
 
 #blogimg {
-	width: 30%;
+	width: 20%;
 	display: block;
 	margin: auto;
+	margin: 1em auto;
 }
