@@ -151,7 +151,8 @@ footer{
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel- ratio: 3)
+{
 
 	body {
 		font-size:48;
