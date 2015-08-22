@@ -25,17 +25,16 @@ nav {
 	font-size: 1em;
 	margin: auto;
 	padding: .25em .5em;
-	display: block;
 }
 
 ul {
 	list-style-type: none;
-	display: inline; 
+	margin: auto;
+	width: 50%;
 }
 
 li {
-	margin: auto;
-	display: inline;
+	float: left;	
 	padding: 0 1em;
 	text-align: left;
 }
@@ -85,6 +84,11 @@ img{
 	margin: .8em 0;
 }
 
+iframe {
+	width: 600px;
+	height: 450px;
+}
+
 footer{
  	font-family: 'Lora', serif;
 	text-align: center;
@@ -92,6 +96,7 @@ footer{
 	font-size: 1em;
 	padding: .25em 0;
 	margin-top: 1em;	
+	width: 100%;
 }
 
 .clearfix:after {     
@@ -111,6 +116,14 @@ footer{
   	text-align: center;
 }
 
+#navleft {
+	
+}
+
+#navright {
+	
+}
+
 #slogan{
 	font-size: 1em;
 	color: #000000;
@@ -119,7 +132,7 @@ footer{
 
 #links{
 	background-color: #E4D2E4;
-	float: center;
+	float: none;
 }
 
 .segundo{
@@ -134,7 +147,68 @@ footer{
 	margin-top: 0;
 }
 
-@media screen and (max-width: 768px) and (min-width: 380px) {
+@media screen and (max-width: 1015px) {
+
+	img {
+		width: 60%;
+	}
+
+	h1 {
+		padding: .75em;
+		font-size: 2em;
+	}
+
+	ul{ 
+		width: auto;
+	}
+}
+
+
+@media screen and (max-width: 690px) {
+
+	iframe {
+		width: 500px;
+		height: 300px;
+	}
+
+
+} 
+@media screen and (max-width: 600px) {
+
+	iframe {
+		width: 400px;
+		height: 250px;
+	} 
+	/*why isn't this changing? */
+
+	ul{
+/*		padding: 20em;*/
+	}
+
+	li { 
+/*		padding: 20em;*/
+		line-height: 1.5em;
+		font-size: 2em;
+		float:none;
+/*		margin: 1em;*/
+	}
+
+	footer {
+		font-size: 1em;
+	}
+
+	nav {
+		font-size: 1em;
+	}
+
+	a:active {
+		
+	}
+
+
+}
+
+/*@media screen and (max-width: 768px) {
 
 	img {
 		width: 450px;
@@ -151,7 +225,7 @@ footer{
 
 	nav {
 		font-size: 2em;
-	}
+	}*/
 
 
 }
@@ -160,7 +234,7 @@ footer{
 
 	
 	nav {
-		font-size:2em;
+		font-size:1em;
 	}
 
 	img {
