@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+body{
+
+	color: #000;
+	font-family: 'Lora', serif;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 24px;	
+	background-size: 100%; 
+}
+
+header{
+	padding: 0px;
+}
+	
+h1{
+	color: #000;
+	font-size: 60px;
+	font-family: 'Courgette', sans-serif;
+	margin: 50px 0 50px 0;
+	line-height: 1.25em;
+}
+
+h2{
+       line-height: 1.5em; 
+}
+
+
+h3{
+	margin: 20px;
+}
+
+p{	
+	font-size: 24px;
+	margin: 3em;
+
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%%;
+	border: 4px solid #000;
+	margin-top: 20px;
+}
+
+.navigation{
+	text-decoration: none;
+	color: #000;
+	padding-right: 50px;
+	font-size: 30px;
+	width: 100%;
+  	text-align: center;
+}
+
+	
+
+#slogan{
+	font-size: 24px;
+	color: #000000;
+}
+
+#babypic{
+	width: 40%; 
+	height: 40%;
+}
+
+#links{
+	background-color: #E4D2E4;
+}
+
+.segundo{
+  
+  background-color: #E4D2E4;
+  width: 100%; 
+  font-size: 15px;
+  text-align: center;
+  
+}	
+
+#credit{
+	font-size: 24px;
+	margin-top: 0px;
+}
