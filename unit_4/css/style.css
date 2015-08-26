@@ -152,9 +152,6 @@ footer{
 		font-size: 2em;
 	}
 
-	ul{ 
-		width: auto;
-	}
 }
 
 
@@ -174,16 +171,22 @@ footer{
 		height: 250px;
 	} 
 
+	nav { 
+		text-align: center; 
+	}
+
 	ul {
 		margin: auto;
 		padding: 1em;
+		text-align: center;
 	}
 
 	li { 
 		
 		line-height: 1.5em;
-		font-size: 2em;
+		font-size: 1.5em;
 		float:none;
+		padding: .3em;
 		
 	}
 
@@ -200,7 +203,6 @@ footer{
 
 	}
 
-
 }
 
 
@@ -213,5 +215,10 @@ footer{
 
 	img {
 		width: 350px;
+	}
+
+	iframe { 
+		width: 300px;
+		height: 200px;
 	}
 }
