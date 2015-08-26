@@ -14,7 +14,7 @@ body{
 	text-align: center;
 	line-height: 1.5em;
 	font-size: 24px;	
-	background-size: 100%; 
+	background: url(../images/baby_stripes.jpg) 
 }
 
 header{
@@ -142,10 +142,16 @@ footer{
 	margin-top: 0;
 }
 
+
+@media screen and (max-width: 1090px) {
+	ul {
+		width: 70%;
+	}
+}
 @media screen and (max-width: 1015px) {
 
 	img {
-		width: 60%;
+		width: 80%;
 	}
 
 	h1 {
@@ -153,6 +159,13 @@ footer{
 		font-size: 2em;
 	}
 
+}
+
+@media screen and (max-width: 800px) {
+	li {
+		width: 50%;
+		padding: .5em 1em;
+	}
 }
 
 
@@ -179,7 +192,7 @@ footer{
 	ul {
 		margin: auto;
 		padding: 1em;
-		text-align: center;
+
 	}
 
 	li { 
@@ -188,6 +201,8 @@ footer{
 		font-size: 1.5em;
 		float:none;
 		padding: .3em;
+		text-align: center;
+		width: 100%;
 		
 	}
 
@@ -211,11 +226,11 @@ footer{
 
 	
 	li {
-		font-size:1.5em;
+		font-size:1em;
 	}
 
 	img {
-		width: 350px;
+		width: 80%;
 	}
 
 	iframe { 
