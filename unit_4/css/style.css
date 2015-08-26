@@ -116,13 +116,7 @@ footer{
   	text-align: center;
 }
 
-#navleft {
-	
-}
 
-#navright {
-	
-}
 
 #slogan{
 	font-size: 1em;
@@ -179,18 +173,18 @@ footer{
 		width: 400px;
 		height: 250px;
 	} 
-	/*why isn't this changing? */
 
-	ul{
-/*		padding: 20em;*/
+	ul {
+		margin: auto;
+		padding: 1em;
 	}
 
 	li { 
-/*		padding: 20em;*/
+		
 		line-height: 1.5em;
 		font-size: 2em;
 		float:none;
-/*		margin: 1em;*/
+		
 	}
 
 	footer {
@@ -202,42 +196,22 @@ footer{
 	}
 
 	a:active {
-		
+		text-decoration: underline;
+
 	}
 
 
 }
 
-/*@media screen and (max-width: 768px) {
 
-	img {
-		width: 450px;
-	}
-
-	li {
-		padding: 1em 1em;
-		line-height: 1.5em;
-	}
-
-	footer {
-		font-size: 1.4em;
-	}
-
-	nav {
-		font-size: 2em;
-	}*/
-
-
-}
-
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 400px) {
 
 	
-	nav {
-		font-size:1em;
+	li {
+		font-size:1.5em;
 	}
 
 	img {
-		width: 300px;
+		width: 350px;
 	}
 }
