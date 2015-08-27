@@ -14,7 +14,8 @@ body{
 	text-align: center;
 	line-height: 1.5em;
 	font-size: 24px;	
-	background: url(../images/baby_stripes.jpg) 
+	background: url(../images/baby_stripes.jpg) center center fixed;
+	background-size: 100%;
 }
 
 header{
@@ -191,19 +192,19 @@ footer{
 
 	ul {
 		margin: auto;
-		padding: 1em;
-
+		padding: 1em
+		width: 100%;
 	}
 
 	li { 
 		
 		line-height: 1.5em;
-		font-size: 1.5em;
-		float:none;
-		padding: .3em;
-		text-align: center;
+		/*font-size: 1.5em;
+		float:none;*/
+		padding: .3em .8em;
+		/*text-align: center;
 		width: 100%;
-		
+		*/
 	}
 
 	footer {
