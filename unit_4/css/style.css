@@ -194,7 +194,7 @@ footer{
 		margin: auto;
 		/*padding: 1em;*/
 		width: 100%;
-	
+
 	}
 
 	li { 
@@ -203,9 +203,9 @@ footer{
 		/*font-size: 1.5em;
 		float:none;*/
 		padding: .3em .8em;
-		/*text-align: center;
-		width: 100%;
-		*/
+		text-align: center;
+		/*width: 100%;*/
+		
 	}
 
 	footer {
