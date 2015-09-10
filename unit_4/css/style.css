@@ -55,6 +55,7 @@ h1{
 
 h2{
      padding: 0 ; 
+     line-height: 1.5em;
 }
 
 
@@ -141,6 +142,19 @@ footer{
 #credit{
 	font-size: 1em;
 	margin-top: 0;
+}
+
+#cp_widget_b724705b-cec9-41a9-9279-b53815333ace{
+	margin: auto; 
+
+}
+
+#videos{
+	padding-bottom: 2em;
+}
+
+#pictures{
+	padding-bottom: 0.2em;
 }
 
 
