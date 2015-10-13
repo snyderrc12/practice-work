@@ -19,10 +19,14 @@ h1 {
 	margin: 0 0 2em 0;
 	text-align: center;
 	text-decoration: underline;
+	/*border-bottom: solid 4px #000;*/ 
+	/*how do i do this to just underline the word? */
 }
 
 img {
+
 }
+
 
 
 hr {
@@ -64,7 +68,7 @@ li {
 p {
 	line-height: 1.5em;
 	margin: auto;
-	padding: .5em;
+	padding: 2em;
 }
 
 footer {
@@ -92,7 +96,7 @@ footer {
 	width: 40%;
 	display: block;
 	margin: auto;
-	padding: 2em 0 0 0;
+	padding: 3em 0 0 0;
 }
 
 .images {
