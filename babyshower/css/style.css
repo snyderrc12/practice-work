@@ -14,7 +14,8 @@ body{
 	text-align: center;
 	line-height: 1.5em;
 	font-size: 24px;	
-	background-size: 100%; 
+	background: url(../images/baby_stripes.jpg) center center fixed;
+	background-size: 100%;
 }
 
 header{
@@ -54,6 +55,7 @@ h1{
 
 h2{
      padding: 0 ; 
+     line-height: 1.5em;
 }
 
 
@@ -114,15 +116,18 @@ footer{
 	font-size: 1em;
 	margin: auto;
   	text-align: center;
+  	width: 100%;
 }
 
-#navleft {
-	
+.locationheadings{
+	color: #000;
+	font-size: 2.5em;
+	font-family: 'Courgette', sans-serif;
+	padding: .75em 0 .75em 0;
+	line-height: 1.25em;
 }
 
-#navright {
-	
-}
+
 
 #slogan{
 	font-size: 1em;
@@ -147,10 +152,29 @@ footer{
 	margin-top: 0;
 }
 
+#cp_widget_b724705b-cec9-41a9-9279-b53815333ace{
+	margin: auto; 
+
+}
+
+#videos{
+	padding-bottom: 2em;
+}
+
+#pictures{
+	padding-bottom: 0.2em;
+}
+
+
+@media screen and (max-width: 1090px) {
+	ul {
+		width: 70%;
+	}
+}
 @media screen and (max-width: 1015px) {
 
 	img {
-		width: 60%;
+		width: 80%;
 	}
 
 	h1 {
@@ -158,8 +182,12 @@ footer{
 		font-size: 2em;
 	}
 
-	ul{ 
-		width: auto;
+}
+
+@media screen and (max-width: 800px) {
+	li {
+		width: 50%;
+		padding: .5em 1em;
 	}
 }
 
@@ -179,18 +207,27 @@ footer{
 		width: 400px;
 		height: 250px;
 	} 
-	/*why isn't this changing? */
 
-	ul{
-/*		padding: 20em;*/
+	nav { 
+		text-align: center; 
+	}
+
+	ul {
+		margin: auto;
+		/*padding: 1em;*/
+		width: 100%;
+
 	}
 
 	li { 
-/*		padding: 20em;*/
+		
 		line-height: 1.5em;
-		font-size: 2em;
-		float:none;
-/*		margin: 1em;*/
+		/*font-size: 1.5em;
+		float:none;*/
+		padding: .3em .8em;
+		text-align: left;
+		
+		
 	}
 
 	footer {
@@ -202,42 +239,26 @@ footer{
 	}
 
 	a:active {
-		
-	}
+		text-decoration: underline;
 
+	}
 
 }
 
-/*@media screen and (max-width: 768px) {
 
-	img {
-		width: 450px;
-	}
-
-	li {
-		padding: 1em 1em;
-		line-height: 1.5em;
-	}
-
-	footer {
-		font-size: 1.4em;
-	}
-
-	nav {
-		font-size: 2em;
-	}*/
-
-
-}
-
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 400px) {
 
 	
-	nav {
+	li {
 		font-size:1em;
 	}
 
 	img {
+		width: 80%;
+	}
+
+	iframe { 
 		width: 300px;
+		height: 300px;
 	}
 }
