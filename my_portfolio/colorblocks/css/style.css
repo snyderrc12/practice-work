@@ -90,7 +90,7 @@ footer {
 	text-align: center;
 	background-color: #FFF;
 	font-size: 1.25em;
-	margin-top: 2em;
+	margin: 1em auto;
 	padding: 15px;
 }
 
@@ -103,7 +103,7 @@ footer {
 }
 
 .sectionwrap2 {
-	background-color: #953B57;
+	background-color: #739AE7;
 	background-size:cover;
 	padding:2em 0;
 	width: 100%;	
@@ -172,13 +172,11 @@ footer {
 	padding:2em 0;
 	width: 100%;
 	color: #FFF;	
-
 }
-
-
 
 #footerlink{
 	color: #000;
+	text-style: normal;
 }
 
 #title {
