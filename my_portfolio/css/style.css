@@ -13,7 +13,6 @@ body {
 	line-height: 1.618em;
 	/*border: solid #000 3px;*/
 	background: url("../images/pink_rice.png") center center fixed;
-	min-width: 1200px;
 }
 
 header {
