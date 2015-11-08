@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: "Brawler", serif;
+}
+
+header {
+	background-color: #FFF;
+	padding: 0;
+}
+
+h1 {
+	text-align: left;
+	font-size: 2em;
+	font-color: #FFF;
+	padding: .6em 0 0 .5em;
+
+}
+
+h2 {
+	margin: 0 0 2em 0;
+	text-align: left;
+	font-size: 1.5em;
+	/*text-decoration: underline;*/
+	/*border-bottom: solid 4px #000;*/ 
+	/*how do i do this to just underline the word? */
+
+}
+
+img {
+	width: 700px;
+
+}
+
+
+
+hr {
+	height: 3px;
+	color: #000;
+	background-color: #000;
+	margin-top: 1em
+
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	float: right;
+	font-size:1.5em;
+	margin: 0;
+	padding: 1em 20px;
+	
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	float: left;
+	padding: 0 1em;
+	margin: 0;
+	color: #FFF;
+
+}
+
+p {
+	line-height: 1.5em;
+	margin: auto;
+	padding: 2em;
+	width: 77%;
+}
+
+footer {
+	text-align: center;
+	background-color: #FFF;
+	font-size: 1.25em;
+	margin: 1em auto;
+	padding: 15px;
+}
+
+
+.sectionwrap1 {
+	background-color: #FFF;
+	background-size:cover;
+	padding:2em 0;
+	width: 100%;	
+}
+
+.sectionwrap2 {
+	background-color: #739AE7;
+	background-size:cover;
+	padding:2em 0;
+	width: 100%;	
+}
+
+.textwrap {
+	width:1270px;
+	margin:auto;
+	padding:2em 0;
+}
+
+.images {
+	float: left;
+	width: 29.33%;
+	padding: 2%;
+	outline: solid 3px #000;
+	background-color: none;
+	margin: 0 2% 4%;
+}
+
+
+.clearfix:after {     
+	visibility: hidden;     
+	display: block;     
+	font-size: 0;     
+	content: " ";     
+	clear: both;     
+	height: 0; 
+} 
+
+.heading {
+	width: 12%;
+	float: left;
+	display: inline;
+	padding-top: 40px;
+}
+
+.screenshot {
+	margin: auto;
+	width: 30%;
+}
+
+.pfloat1 {
+	float: left;
+	width: 18%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.pfloat {
+	float: right;
+	width: 74%;
+	margin-left: 1%;
+	margin-right: 3%;
+	padding-left: 0%;
+}
+
+#snydercpa {
+	width: 700px;
+}
+
+
+#crabapple {
+	background-color: #739AE7;
+	width: 100%;
+	padding: 0;
+	color: #FFF;	
+}
+
+#footerlink{
+	color: #000;
+	text-style: normal;
+}
+
+#title {
+	float:left;
+	/*width:50%;*/
+}
+
+#heading1 {
+	float: left;
+	width: 50%;
+}
+
+#heading2 {
+	color: #FFF;
+}

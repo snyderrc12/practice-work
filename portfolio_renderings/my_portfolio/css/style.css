@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: "Brawler", serif;
+	line-height: 1.618em;
+	/*border: solid #000 3px;*/
+	background: url("../images/pink_rice.png") center center fixed;
+	width: auto;
+}
+
+header {
+	width: 100%;
+}
+
+h1 {
+	margin: .9em 0;
+	padding: .5em .1em;
+	text-align: left;
+	font-size: 1.5em;
+	float: left;
+	border-bottom: solid 3px #000;
+}
+
+h2 {
+	margin: 0 0 2em 0;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.618em;
+	/*text-decoration: underline;*/
+	/*border-bottom: solid 4px #000;*/ 
+	/*how do i do this to just underline the word? */
+
+}
+
+img {
+	width: 80%px;
+	border: solid #000 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	line-height: 1.5em;
+	margin: auto;
+	padding: 2em;
+}
+
+
+    /*   Header ID's   */
+#wordmark {
+	float: left;
+	width: 8%;
+	margin: .3em;
+}
+
+#h1 {
+	width: 48%;
+}
+
+#wm {
+	width: 100%;
+	float: left;
+	border: none;
+}
+
+#email {
+	float: right;
+	font-size:1.125em;
+	width: 30%;
+	margin: 2.4em;
+}
+
+#emaillink {
+	float:right;
+}
+/*---------------------------------*/
+
+.pic {
+	width: 220%;
+}
+
+.sectionwrap {
+	padding:2em 0;
+	width: 100%;	
+}
+
+.textwrap{
+	padding:6.5em;
+}
+
+.clearfix:after {     
+	visibility: hidden;     
+	display: block;     
+	font-size: 0;     
+	content: " ";     
+	clear: both;     
+	height: 0; 
+} 
+
+.screenshot {
+	width: 30%;
+}
+
+
+#htmlemailspacing {
+	padding-top: 0em;
+}
+
+#screenshot1 {
+	margin-bottom: 3em;
+}
+
+#snydercpa {
+	width: 700px;
+}
+
+
+
+#footerlink{
+	color: #000;
+	text-style: normal;
+}
+
+#title {
+	float:left;
+	/*width:50%;*/
+}
+
+#heading1 {
+	width: 80%;
+}
+
+
