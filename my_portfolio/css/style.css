@@ -30,13 +30,9 @@ h1 {
 
 h2 {
 	margin: 0 0 2em 0;
-	text-align: left;
+	text-align: center;
 	font-size: 1.5em;
 	line-height: 1.618em;
-	/*text-decoration: underline;*/
-	/*border-bottom: solid 4px #000;*/ 
-	/*how do i do this to just underline the word? */
-
 }
 
 img {
@@ -129,8 +125,14 @@ footer {
 }
 /*---------------------------------*/
 
+.sscenter {
+	margin:auto;
+}
 .pic {
-	width: 100%;
+	width: 60%;
+	margin: auto;
+	display: block
+
 }
 
 .sectionwrap {
@@ -154,7 +156,7 @@ footer {
 } 
 
 .screenshot {
-	width: 60%;
+	width: 100%;
 }
 
 
@@ -163,11 +165,11 @@ footer {
 }
 
 #screenshot1 {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 #screenshot2 {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 #snydercpa {
@@ -187,7 +189,7 @@ footer {
 }
 
 #heading1 {
-	width: 80%;
+	width: 100%;
 }
 
 @media screen and (max-width: 1030px) {
@@ -219,6 +221,23 @@ footer {
 	}
 
 	.screenshot {
-		width: 80%;
+		width: 100%;
+	}
+
+	.heading1 {
+		width: 100%;
+	}
+
+	.pic {
+	width: 80%;
+	margin: auto;
+	display: block
+
+}
+}
+
+@media screen and (max-width: 970px) {
+	.heading1 {
+		width: 60%;
 	}
 }
