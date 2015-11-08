@@ -11,7 +11,7 @@ body {
 	font-size: 20px;
 	font-family: "Brawler", serif;
 	line-height: 1.618em;
-	border: solid #000 3px;
+	/*border: solid #000 3px;*/
 	background: url("../images/pink_rice.png") center center fixed;
 }
 
@@ -131,7 +131,7 @@ footer {
 /*---------------------------------*/
 
 .pic {
-	width: 850px;
+	width: 220%;
 }
 
 .sectionwrap {
