@@ -40,7 +40,6 @@ h2 {
 }
 
 img {
-	width: 850px;
 	border: solid #000 2px;
 }
 
@@ -131,7 +130,7 @@ footer {
 /*---------------------------------*/
 
 .pic {
-	width: 300%;
+	width: 100%;
 }
 
 .sectionwrap {
@@ -155,7 +154,7 @@ footer {
 } 
 
 .screenshot {
-	width: 30%;
+	width: 60%;
 }
 
 
@@ -164,6 +163,10 @@ footer {
 }
 
 #screenshot1 {
+	margin-bottom: 2em;
+}
+
+#screenshot2 {
 	margin-bottom: 2em;
 }
 
@@ -213,5 +216,9 @@ footer {
 	font-size:1.125em;
 	width: 30%;
 	margin: 1.2em;
+	}
+
+	.screenshot {
+		width: 80%;
 	}
 }
