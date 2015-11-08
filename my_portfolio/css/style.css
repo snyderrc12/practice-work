@@ -11,7 +11,7 @@ body {
 	font-size: 20px;
 	font-family: "Brawler", serif;
 	line-height: 1.618em;
-	/*border: solid #000 3px;*/
+/*	border: solid #000 3px;*/
 	background: url("../images/pink_rice.png") center center fixed;
 }
 
@@ -40,8 +40,17 @@ h2 {
 }
 
 img {
-	width: 80%px;
+	width: 850px;
 	border: solid #000 2px;
+}
+
+
+
+hr {
+	height: 3px;
+	color: #000;
+	background-color: #000;
+	margin-top: 1em
 }
 
 a {
@@ -53,14 +62,46 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*nav {
+	float: right;
+	font-size:1.25em;
+	padding: 25px;
+	width: 40%;
+	margin-top: .7em;
+	display: none;
+}*/
+
+
+ul {
+	list-style-type: none;
+	float: right;
+
+}
+
+li {
+	float: left;
+	padding: 0 1em;
+	margin: 0;
+
+}
+
 p {
 	line-height: 1.5em;
 	margin: auto;
 	padding: 2em;
 }
 
+footer {
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 2em;
+	padding: 15px;
+}
 
-    /*   Header ID's   */
+
+
+
+    /*   Header ID's and classes*/
 #wordmark {
 	float: left;
 	width: 8%;
@@ -90,7 +131,7 @@ p {
 /*---------------------------------*/
 
 .pic {
-	width: 220%;
+	width: 300%;
 }
 
 .sectionwrap {
@@ -99,8 +140,10 @@ p {
 }
 
 .textwrap{
-	padding:6.5em;
+	margin:auto;
+	padding:2.7em;
 }
+
 
 .clearfix:after {     
 	visibility: hidden;     
@@ -121,7 +164,7 @@ p {
 }
 
 #screenshot1 {
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 #snydercpa {
@@ -144,4 +187,31 @@ p {
 	width: 80%;
 }
 
+@media screen and (max-width: 1030px) {
 
+	h1 {
+	margin: .3em 0;
+	padding: .5em .1em;
+	text-align: left;
+	font-size: 1.5em;
+	float: left;
+	border-bottom: solid 3px #000;
+	}
+
+	#h1 {
+	width: 60%;
+	}
+
+	#wordmark {
+	float: left;
+	width: 10%;
+	margin: .3em;
+	}
+
+	#email {
+	float: right;
+	font-size:1.125em;
+	width: 30%;
+	margin: 1.2em;
+	}
+}
