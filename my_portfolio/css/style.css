@@ -13,6 +13,7 @@ body {
 	line-height: 1.618em;
 	/*border: solid #000 3px;*/
 	background: url("../images/pink_rice.png") center center fixed;
+	min-width: 1000px;
 }
 
 header {
@@ -40,17 +41,8 @@ h2 {
 }
 
 img {
-	width: 850px;
+	width: 80%px;
 	border: solid #000 2px;
-}
-
-
-
-hr {
-	height: 3px;
-	color: #000;
-	background-color: #000;
-	margin-top: 1em
 }
 
 a {
@@ -62,46 +54,14 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*nav {
-	float: right;
-	font-size:1.25em;
-	padding: 25px;
-	width: 40%;
-	margin-top: .7em;
-	display: none;
-}*/
-
-
-ul {
-	list-style-type: none;
-	float: right;
-
-}
-
-li {
-	float: left;
-	padding: 0 1em;
-	margin: 0;
-
-}
-
 p {
 	line-height: 1.5em;
 	margin: auto;
 	padding: 2em;
 }
 
-footer {
-	text-align: center;
-	font-size: 1.25em;
-	margin-top: 2em;
-	padding: 15px;
-}
 
-
-
-
-    /*   Header ID's and classes*/
+    /*   Header ID's   */
 #wordmark {
 	float: left;
 	width: 8%;
@@ -140,12 +100,8 @@ footer {
 }
 
 .textwrap{
-	width:1270px;
-	margin:auto;
-	padding:2.7em;
+	padding:6.5em;
 }
-
-
 
 .clearfix:after {     
 	visibility: hidden;     
