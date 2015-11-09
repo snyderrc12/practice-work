@@ -31,13 +31,15 @@ nav {
 ul {
 	list-style-type: none;
 	margin: auto;
-	width: 50%;
+	display: block;
+	width: 95%;
 }
 
 li {
-	float: left;	
+	float: center;	
 	padding: 0 1em;
 	text-align: left;
+	display: inline;
 }
 
 a {
@@ -47,6 +49,12 @@ a {
 a:hover {
 	text-decoration: underline;
 	
+}
+
+section {
+	margin-right: -1%;
+	width: 100%;
+
 }
 	
 h1{
@@ -138,6 +146,15 @@ footer{
 }
 
 
+.wrapper {
+	display: block;
+	margin: auto;
+}
+
+#lastlink {
+	padding-right: 0px;
+}
+
 #images {
 	margin-top: 1em;
 }
@@ -154,7 +171,7 @@ footer{
 
 #links{
 	background-color: #E4D2E4;
-	float: none;
+	/*float: none;*/
 }
 
 .segundo{ 
@@ -185,7 +202,12 @@ footer{
 @media screen and (max-width: 1090px) {
 	ul {
 		width: 70%;
+		margin: auto;
 	}
+
+	/*li { 
+		display: block;
+	}*/
 }
 @media screen and (max-width: 1015px) {
 
@@ -200,6 +222,11 @@ footer{
 
 }
 
+@media screen and (max-width: 840) {
+	li {
+		display: block;
+	}
+}
 @media screen and (max-width: 800px) {
 	li {
 		width: 50%;
