@@ -226,6 +226,10 @@ footer{
 	li {
 		display: block;
 	}
+
+	ul {
+		width: 90%;
+	}
 }
 @media screen and (max-width: 800px) {
 	li {
