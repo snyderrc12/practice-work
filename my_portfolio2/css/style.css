@@ -11,21 +11,10 @@ body {
 	font-size: 20px;
 	font-family: "Brawler", serif;
 	line-height: 1.618em;
-/*	border: solid #000 3px;*/
 	background: url("../images/pink_rice.png") center center fixed;
 	max-width: 98%;
 	margin: 0 1%;
 }
-
-/*h1 {
-	margin: 0;
-/*	padding: .5em .1em;*/
-/*	padding: 0;
-	text-align: left;
-	font-size: 1.5em;
-	float: left;
-	border-bottom: solid 3px #000;
-}*/
 
 h1 {
 	margin: .3em 0;
@@ -143,8 +132,6 @@ h1 {
 	}
 
 	#email {
-	/*float: right;
-	font-size:1.125em;*/
 	width: 30%;
 	margin: 1.2em;
 	}
@@ -220,16 +207,9 @@ h1 {
 	width: 700px;
 }
 
-
-
 #footerlink{
 	color: #000;
 	text-style: normal;
 }
-
-/*#title {
-	float:left;
-	/*width:50%;*/
-}*/
 
 
