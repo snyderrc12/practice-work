@@ -38,9 +38,9 @@
 	width: 80%;
 	margin: auto;
 	display: block
+	}
+}
 
-}
-}
 
 @media screen and (max-width: 970px) {
 	.heading1 {
@@ -57,17 +57,18 @@
 	}
 }
 
+
 @media screen and (max-width:660px) {
 	h1 {
 		margin-left: 1em;
 	}
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 630px) {
 	h1 {
-		font-size: .6em;
-		border-bottom: 2px solid #000;
-		/*float: none;*/
+		font-size: .8em;
+		border-bottom: 1px solid #000;
 	}
 
 	h2 {
@@ -77,18 +78,14 @@
 	#email {
 		font-size: .6em;
 		margin-left: 1.4em;
-	/*	float: none;*/
+	}	
+}
+
+
+@media screen and (max-width: 490px) {
+	#email {
+		float: none;
+		clear: both;
 	}
 
-	#emaillink {
-	/*	float:none;*/
-	}
-
-	#wm {
-	/*	float: none;*/
-	}
-
-	#wordmark {
-		/*float: none;*/
-	}
 }
