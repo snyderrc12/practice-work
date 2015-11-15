@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: "Brawler", serif;
+	line-height: 1.618em;
+	background: url("../images/pink_rice.png") center center fixed;
+	width: 90%;
+}
+
+img { 
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+	/*///////////////////////////////
+   		HEADER 
+	///////////////////////////////*/
+
+	header {
+		width: 90%;
+		margin-bottom: 3em;
+	}
+
+	header img {
+		width: 80px;
+	}
+
+	header a {
+		text-decoration: none;
+		color: #000;
+		font-size: .8em;
+		padding: 1em;
+	}
+
+	header a:hover {
+		text-decoration: underline;
+	}
+
+	h1 {
+		border-bottom: solid 3px #000;
+		font-size: 1.1em;
+		width: 60%;
+	}
+
+	header h1 {
+		margin: 1em 0 .2em .8em;
+	} 
+
+
+
+	/*///////////////////////////////
+   		PORTFOLIO
+	///////////////////////////////*/
+
+	section {
+		width: 90%;
+		margin: 0 auto 0;
+	}
+
+	section img {
+		border: solid 2px #000;
+		margin: 1em auto;
+	}
+
+	h2 {
+		margin: auto;
+		text-align: center;
+	}
+	
+	h3 {
+		text-align: center;
+		margin: 1em auto .5em auto ;
+		font-size: .8em;
+	}
