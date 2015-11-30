@@ -66,9 +66,10 @@ article {
 
 img {
 	float: left;
-	width: 250px;
+	width: 220px;
 	margin: auto;
 	display: block;
+	padding: 15px;
 }
 
 footer {
