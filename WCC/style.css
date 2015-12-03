@@ -1,5 +1,7 @@
 body {
 	background-color: #008BA0;
+	font-family: Verdana;
+	color: #445566;
 }
 
 header {
@@ -9,18 +11,21 @@ header {
 h1 {
 	text-align: center;
 	padding: 20px;
-	font-size: 36px;
+	font-size: 3em;
+	font-family: Georgia, Times, Serif;
+  	font-weight: normal;
 	margin: 0;
 }
 
 h3 {
-	padding: 10px;
-	margin: 10px;
-	text-align: center;
+	margin: 0px;
 }
 
 nav {
 	background-color: #00C0D5;
+}
+
+nav li a {
 	color: white;
 }
 
@@ -41,16 +46,13 @@ footer li {
 	padding: 20px;
 }
 
-main {
-	background-color: #DEF2F3;
-}
-
 aside {
 	float: left;
-	width: 250px;
+	width: 200px;
 	border: solid 2px #000;
-	margin: 10px;
-	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	padding: 5px;
 }
 
 aside ul {
@@ -59,17 +61,14 @@ aside ul {
 }
 
 article {
-	float:left;
-	width: 600px;
-	margin-left: 20px;
+	float:right;
+	width: 650px;
+	margin-right: 40px;
+	line-height: 20px;
 }
 
 img {
-	float: left;
-	width: 220px;
-	margin: auto;
-	display: block;
-	padding: 15px;
+	width: 200px;
 }
 
 footer {
@@ -82,4 +81,6 @@ footer {
 #wrapper {
 	width: 960px;
 	margin: auto;
+	background-color: #DEF2F3;
+}
 }
