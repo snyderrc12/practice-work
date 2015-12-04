@@ -26,19 +26,18 @@ nav {
 	font-size: 1em;
 	margin: auto;
 	padding: .25em .5em;
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 	margin: auto;
 	width: 50%;
-	text-align: center;
 }
 
 li {
 	float: left;	
 	padding: 0 1em;
-	/*text-align: left;*/
 }
 
 a {
