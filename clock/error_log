@@ -1,3 +1,0 @@
-[19-Dec-2015 15:26:12 America/Chicago] PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /home/rebecc75/public_html/clock/index.php on line 8
-[19-Dec-2015 15:26:12 America/Chicago] PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /home/rebecc75/public_html/clock/index.php on line 8
-[19-Dec-2015 15:26:12 America/Chicago] PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/opt/php54/lib/php') in /home/rebecc75/public_html/clock/index.php on line 8
