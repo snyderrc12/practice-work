@@ -150,10 +150,6 @@ footer {
     float: none;
 }
 
-/*#links li:last-child {
-    padding-right: 0;
-}*/
-
 #credit {
     font-size: 1em;
     margin-top: 0;
@@ -173,7 +169,6 @@ footer {
     margin: 0 auto;
     width: 1060px;
     border: solid 6px #E4D2E4;
-    padding-bottom: 1em;
 }
 
 .picture-page {
