@@ -16,10 +16,9 @@ h1 {
 }
 
 h2 {
-	margin: .5em;
-	padding: 2em;
 	font-size: 1.4em;
 	font-weight: normal;
+	margin: 1em 0 0 1.5em;
 }
 
 a {
@@ -74,9 +73,9 @@ header li {
 }
 
 #about {
-	background-color: lightblue;
+	background-color: #00BCD4;
 	clear: both;
-	padding: 2em;
+	padding: 3em;
 }
 
 #about h2 {
@@ -98,36 +97,46 @@ header li {
                                      /*WORK*/
 
 #work {
-	width: 100%;
-	height: 500px;
+	padding: 2em;
+	height: 750px;
 }
-
 #work1 {
 	width: 33.3%;
 	height: 500px;
 	float: left;
-	background-color: blue;
 }
 #work2 {
 	width: 33.3%;
 	height: 500px;
 	float: left;
-	background-color: green;
 }
 #work3 {
 	width: 33.3%;
 	height: 500px;
 	float: left;
-	background-color: purple;
+}
+#work-pic {	
+	width: 400px;
+	height: 300px;
+	border-radius: 15px;
+	display: block;
+	margin: 2em auto;
+	border: solid #000 2px;
+}
+figcaption {
+	text-align: center;
+	margin: 0 auto 2em;
+	padding-bottom: 2em;
 }
 
 									/*CONTACT*/
 
 
 #contact {
-  background-color: lightblue;
+  background-color: #00BCD4;
   width: 100%; 
   overflow: auto;
+  padding: 2em;
 }
 
 #contact-left {
@@ -136,10 +145,9 @@ header li {
 }
 
 #contact #contact-left p {
-	/*margin: 4.5em 0 0 7em;*/
-	margin: 4.5em auto;
-	text-align: center;
-	font-size: 1.4em;
+	margin: 3em 0 0 1.8em;
+	text-align: left;
+	font-size: 1.2em;
 	line-height: 1.62em;
 }
 
