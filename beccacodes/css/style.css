@@ -213,3 +213,16 @@ figcaption {
 		text-align: center;
 	}
 }
+
+@media screen and (max-width: 650px) {
+	#contact-left {
+		float: none;
+	}
+	#contact-left p {
+		display: none;
+	}
+	#contact-right {
+		float: none;
+		width: 100%;
+	}
+}
