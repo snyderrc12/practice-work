@@ -9,7 +9,9 @@ body{
 	font-family: Georgia, serif;
 	line-height: 1.618em;
 }
-
+p {
+	margin-bottom: 1.5em;
+}
 h1 {
 	font-size: .8em;
 	font-weight: normal;
@@ -19,6 +21,10 @@ h2 {
 	font-size: 1.4em;
 	font-weight: normal;
 	margin: 1em 0 0 1.5em;
+}
+
+#link {
+	border-bottom: solid 2px #000;
 }
 
 a {
@@ -64,8 +70,8 @@ header li {
 
 										/*ABOUT*/
 #profile-pic {	
-	width: 250px;
-	height: 250px;
+	width: 80%;
+	min-width: 250px;
 	border-radius: 50%;
 	display: block;
 	margin: 2em auto;
@@ -79,7 +85,7 @@ header li {
 }
 
 #about h2 {
-    margin: .5em;
+    margin: .5em 0;
     padding: 0 0 .5em;
     font-size: 1.4em;
 }
@@ -93,6 +99,7 @@ header li {
 	width: 70%;
 	margin: 1em auto;
 	padding-left: 4em;
+	float: right;
 }
                                      /*WORK*/
 
@@ -179,4 +186,27 @@ figcaption {
 }
 
 
+					/*MEDIA QUERIES*/
 
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 16px;
+	}
+
+	#profile-left {
+		float:none;
+		width: 70%;
+		margin: auto;
+	}
+	#profile-right {
+		float: none;
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+
+	#about h2 {
+		text-align: center;
+	}
+}
