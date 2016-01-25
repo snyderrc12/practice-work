@@ -17,7 +17,7 @@ p {
 }
 h1 {
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 h2 {
@@ -53,20 +53,22 @@ header {
 header h1 {
 	float: left;
 	margin-left: 1em;
+	font-variant: small-caps;
 }
 
-header ul {
+header nav {
 	float: right;
 }
 
-header li {
+header nav a {
 	display: inline-block;
 	text-decoration: none;
 	list-style-type: none; 
 	padding-right: 2em;
 	font-size: 1em;
+	font-variant: small-caps;
 }
-header li:hover {
+header a:hover {
 	text-decoration: underline;
 }
 
@@ -197,6 +199,8 @@ figcaption {
 #arrow {
 	clear: both;
 	text-align: center;
+	font-variant: small-caps;
+	font-size: 1.2em;
 }
 #arrow:hover {
 	text-decoration: underline;
