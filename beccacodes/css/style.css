@@ -192,13 +192,14 @@ figcaption {
 }
 
 
-					/*FOOTER*/
+					/*BACK TO TOP*/
 
-footer {
-	background-color: #FFF;
-	text-align: right;
-	padding: 2em;
-	font-size: 1em;
+#arrow {
+	clear: both;
+	text-align: center;
+}
+#arrow:hover {
+	text-decoration: underline;
 }
 
 
