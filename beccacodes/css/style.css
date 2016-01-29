@@ -280,4 +280,7 @@ figcaption {
 	#profile-left {
 		width: 70%;
 	}
+	#work-pic {	
+	border: solid #000 1px;
+}
 }
