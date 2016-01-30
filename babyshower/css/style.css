@@ -22,21 +22,21 @@ header{
 
 nav {
     font-size: 1em;
-    margin: 0 10%;
+    margin: auto;
     padding: .25em .5em;
     text-align: center;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     margin: auto;
 }
 
-nav ul li {
-    float: left;
+li {
+    display:inline;
     padding: 0 2%;
     text-decoration: none;
-    width: 25%;
+    width: 100%;
 }
 
 a {
@@ -179,8 +179,6 @@ footer {
 		margin: 0 0;
 	}
 
-    
-
 @media screen and (max-width: 1015px) {
 
     img {
@@ -190,10 +188,6 @@ footer {
     h1 {
         padding: .75em;
         font-size: 2em;
-    }
-
-    nav {
-        margin: auto;
     }
 
 }
@@ -237,10 +231,9 @@ footer {
         font-size: 18px;
     }
 
-    nav ul li {
+    li {
         display:block;
-        padding: 0;
-        margin: 0;
+        padding:1%;
     }
 
     h2 {
