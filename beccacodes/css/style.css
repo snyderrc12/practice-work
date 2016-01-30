@@ -123,7 +123,7 @@ header a:hover {
 	width: 33.3%;
 	float: left;
 }
-#work-pic {	
+.work-pic {	
 	width: 90%;
 	border-radius: 15px;
 	display: block;

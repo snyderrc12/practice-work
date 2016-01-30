@@ -102,6 +102,7 @@ footer {
     width: 100%;
     background-color: #E4D2E4;
     min-height: 1.5em;
+    margin: 0;
 }
 
 .emptyfooter {
