@@ -176,13 +176,9 @@ footer {
 	background: url(http://snyderrc12.github.io/babyshower/images/baby_stripes.jpg) center center fixed;
 }
 
-/* Media Query added by Susan */
 @media screen and (max-width: 540px) {
     li {
-        /* When the browser gets smaller, we switch the lis back to block elements so they stack */
         display:block;
-
-        /* When the browser gets smaller, we have to reduce the padding from 2% to 1% to fit everything */
         padding:1%;
     }
 
@@ -191,7 +187,6 @@ footer {
     }
 
 }
-/* End Media Query added by Susan */
 
 @media screen and (max-width: 1060px) {
 	.wrapper {
@@ -204,7 +199,7 @@ footer {
 	}
 
 	header, footer {
-		margin: auto 0;
+		margin: 0 0;
 	}
 
 @media screen and (max-width: 1015px) {
