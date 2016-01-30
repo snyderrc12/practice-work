@@ -237,21 +237,11 @@ footer {
         font-size: 18px;
     }
 
- /*   nav ul li {
-        float: none;
+    nav ul li {
+        display:block;
+        padding: .5%;
     }
 
-    #left {
-        float: left;
-        width: 45%;
-        text-align: left;
-    }
-
-    #right {
-        float: right;
-        width: 45%;
-        */text-align: left;
-    }
     h2 {
         font-size: 1.1em;
     }
