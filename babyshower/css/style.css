@@ -170,21 +170,7 @@ footer {
 	background: url(http://snyderrc12.github.io/babyshower/images/baby_stripes.jpg) center center fixed;
 }
 
-@media screen and (max-width: 540px) {
-    body {
-        font-size: 18px;
-    }
 
-    li {
-        display:block;
-        padding:1%;
-    }
-
-    h2 {
-    	font-size: 1.1em;
-    }
-
-}
 
 @media screen and (max-width: 1060px) {
 	.wrapper {
@@ -243,12 +229,23 @@ footer {
     }
 }
 
+@media screen and (max-width: 540px) {
+    body {
+        font-size: 18px;
+    }
+
+    li {
+        display:block;
+        padding:1%;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+}
 
 @media screen and (max-width: 400px) {
 
-    img {
-        width: 80%;
-    }
 
     iframe {
         width: 250px;
