@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rebecca Snyder Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="top"></div>
+	<header>
+		<a href="http://www.beccacodes.com"><h1>Rebecca Snyder</h1></a>
+
+		<nav>
+			<a href="http://www.beccacodes.com">Home</a>
+		</nav>
+	</header>
+
+	<section id="project" class="clearfix">
+		<div id="project-left">
+		<a href="http://www.songsofpeace.net"><img id="project-pic" src="images/macushla.png" alt="Macushla"></a>
+		</div>
+		
+		<div id="project-right">
+			<h2>MACUSHLA</h2>
+			<h3>Who</h3>
+				<p>Stefan Andre Waligur - Musician/Composer</p>
+			<h3>Time-frame</h3>
+				<p>August 2014</p>
+			<h3>Role</h3>
+				<p>Design and Develop</p>
+			<a href="http://www.songsofpeace.net" target="_blank" id="button">VIEW SITE</a>
+		</div>
+	</section>
+	<section>
+		<div id="part-two">
+			<h3>Client Goal</h3>
+			<p>The client wanted to update his website, which was hosted on a drag and drop website. His goal was to appeal to a younger generation, and have his new website showcase his work and direct the user towards purchasing his albums, and clearly lay out his tour dates.</p>
+			<h3>Solution</h3>
+			<p>I designed and updated the website on the existing medium and hosting site, adding custom HTML elements. To modernize the site, I used large high-quality images and prominently incorporated the links to social media and his blog. I put links to his newest album on the front page, as well as created a store page with easy links to the most popular websites where young people buy their music.</p>
+		</div>
+	</section>
+
+</body>
+</html>
