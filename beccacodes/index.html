@@ -4,7 +4,6 @@
 	<title>Rebecca Snyder Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/script.js"></script>
 	<meta charset="UTF-8">
 	<link rel="icon" href="images/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,8 +47,9 @@
 		</figure>
 		<figure id="work3">
 		<a target="_blank" href="http://snyderrc12.github.io/sample_emails/snydercpa.html"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="work-pic" src="images/snydercpa.png" alt="Snyder & Company" title="Snyder & Company"></a>
-			<figcaption>HTML Email<br>Snyder &amp; Company<br>(Design &amp; Code - Responsive Web Design)</figcaption>
+			<figcaption>HTML Email<br>Snyder &amp; Company<br>(Design &amp; Code - Fluid Design)</figcaption>
 		</figure>
+	
 	</section>
 	
 	<section id="contact" class="clearfix">
@@ -72,6 +72,104 @@
 		</div>
 	</section>
 
+
+
+	<script>
+			function bigImg(x) {
+				x.style.width = 120%;
+			};
+	</script>
+	<script>
+			function normalImg(x) {
+			    x.style.width = 90%; 
+			};
+	</script> 
+	<script>
+			document.getElementById("say-hi").addEventListener("click", function (){
+				alert("Hi! Thanks for coming to my site! If you want to talk to me, head on over to the right and email or tweet me!");
+			});
+	</script>
+	<script>
+	(function() {
+
+     'use strict';
+
+    // Feature Test
+    if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+
+        // Function to animate the scroll
+        var smoothScroll = function (anchor, duration) {
+
+            // Calculate how far and how fast to scroll
+            var startLocation = window.pageYOffset;
+            var endLocation = anchor.offsetTop;
+            var distance = endLocation - startLocation;
+            var increments = distance/(duration/16);
+            var stopAnimation;
+
+            // Scroll the page by an increment, and check if it's time to stop
+            var animateScroll = function () {
+                window.scrollBy(0, increments);
+                stopAnimation();
+            };
+
+            // If scrolling down
+            if ( increments >= 0 ) {
+                // Stop animation when you reach the anchor OR the bottom of the page
+                stopAnimation = function () {
+                    var travelled = window.pageYOffset;
+                    if ( (travelled >= (endLocation - increments)) || ((window.innerHeight + travelled) >= document.body.offsetHeight) ) {
+                        clearInterval(runAnimation);
+                    }
+                };
+            }
+            // If scrolling up
+            else {
+                // Stop animation when you reach the anchor OR the top of the page
+                stopAnimation = function () {
+                    var travelled = window.pageYOffset;
+                    if ( travelled <= (endLocation || 0) ) {
+                        clearInterval(runAnimation);
+                    }
+                };
+            }
+
+            // Loop the animation function
+            var runAnimation = setInterval(animateScroll, 16);
+       
+        };
+
+        // Define smooth scroll links
+        var scrollToggle = document.querySelectorAll('.scroll');
+
+        // For each smooth scroll link
+        [].forEach.call(scrollToggle, function (toggle) {
+
+            // When the smooth scroll link is clicked
+            toggle.addEventListener('click', function(e) {
+
+                // Prevent the default link behavior
+                e.preventDefault();
+
+                // Get anchor link and calculate distance from the top
+                var dataID = toggle.getAttribute('href');
+                var dataTarget = document.querySelector(dataID);
+                var dataSpeed = toggle.getAttribute('data-speed');
+
+                // If the anchor exists
+                if (dataTarget) {
+                    // Scroll to the anchor
+                    smoothScroll(dataTarget, dataSpeed || 500);
+                }
+
+            }, false);
+
+        });
+
+    }
+
+ })();
+ </script>
 	
 </body>
 </html>

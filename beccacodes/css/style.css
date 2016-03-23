@@ -154,46 +154,38 @@ button {
   overflow: auto;
   padding: 2em;
 }
-
 #contact-left {
 	float: left;
 	width: 40%;
 }
-
 #contact #contact-left p {
 	margin: 3em 0 0 1.8em;
 	text-align: left;
 	font-size: 1em;
 	line-height: 1.62em;
 }
-
 #contact-right {
   width: 50%;
   float: right;
   text-align: left;
 }
-
 #contact-right img {
   width: 50px;
   float: left;
   margin-right: 1em;
 }
-
 #contact-right li {
   list-style-type: none;
   padding: .5em;
   font-size: 1em;
   line-height: 2.1em;
 }
-
 #contact-right li:hover {
 	text-decoration: underline;
 }
-
 #contact-right ul {
   margin: 3em 0;
 }
-
 .next {
   clear: both;
 }
