@@ -142,6 +142,12 @@ figcaption {
 									/*CONTACT*/
 
 
+button {
+	margin: 2em 0 0 2em;
+	padding: 1em;
+	border-radius: 15px;
+	background-color: #FFF;
+}
 #contact {
   background-color: #00BCD4;
   width: 100%; 
