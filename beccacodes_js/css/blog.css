@@ -25,9 +25,10 @@ h1 {
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 2em;
 	font-weight: normal;
-	margin: 1em 0 0 1.5em;
+	/*margin: 1em 0 0 1.5em;*/
+	font-variant: small-caps;
 }
 
 .link {
@@ -89,12 +90,12 @@ header a:hover {
 #main {
 	background-color: #00BCD4;
 	width: 100%;	
-	padding: 3em;
+	padding: 2em;
 }
 
 #main h2 {
 	text-align: center;
-	margin: 2em;
+	margin: 1em;
 }
 
 #left-block {
