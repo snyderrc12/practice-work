@@ -23,6 +23,7 @@ h2 {
     margin: .5em 0;
     padding: 0 0 .5em;
     font-size: 1.4em;
+    font-variant: small-caps;
 }
 
 h3 {
@@ -88,7 +89,7 @@ header a:hover {
 
 #project {
 	background-color: #00BCD4;
-	padding: 3em;
+	padding: 3em 3em 1.5em;
 	width: 100%;
 }
 
@@ -106,6 +107,10 @@ header a:hover {
 	float: left;
 	width: 530px;
 	border: 2px #000 solid;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 	border-radius: 15px;
 }
 
@@ -113,14 +118,20 @@ header a:hover {
 	text-align: center;
 	padding: 10px 10px;
 	border: 2px #000 solid;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 	border-radius: 15px;
 	background-color: #FFF;
 	width: 20%;
+	margin: 1.5em auto;
+	display: block;
 }
 
 #project-right {
 	width: 50%;
-	margin: 1em auto 0;
+	margin: 3em auto 0;
 	padding-left: 4em;
 	float: right;
 }
@@ -144,6 +155,7 @@ header a:hover {
 		max-width: 700px;
 		display: block;
 		margin: 0 auto;
+		border: 1px #000 solid;
 	}
 	#project-right {
 		float: none;
@@ -159,14 +171,13 @@ header a:hover {
     	margin-top: 2em;
 	}
 	#button {
-		margin: 1em auto 0;
     	display: block;
 	}
 }
 
 @media screen and (max-width: 770px) {
 	#project-pic {
-		width: 90%;
+		width: 95%;
 	}
 	#button {
 		width: 50%;

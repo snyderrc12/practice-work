@@ -84,6 +84,10 @@ header a:hover {
 #profile-pic {	
 	width: 80%;
 	min-width: 200px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 	border-radius: 50%;
 	display: block;
 	margin: 3em auto;
