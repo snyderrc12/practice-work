@@ -114,6 +114,14 @@ header a:hover {
 	border-radius: 15px;
 }
 
+#project-pic:hover, #project-pic:active {
+	-moz-box-shadow: 2px 2px #777;
+    -webkit-box-shadow: 2px 2px #777;
+    -ms-box-shadow: 2px 2px #777;
+    -o-box-shadow: 2px 2px #777;
+	box-shadow: 2px 2px #777;
+}
+
 #button {
 	text-align: center;
 	padding: 10px 10px;
@@ -127,6 +135,14 @@ header a:hover {
 	width: 20%;
 	margin: 1.5em auto;
 	display: block;
+}
+
+#button:hover, #button:active {
+	-moz-box-shadow: 2px 2px #777;
+    -webkit-box-shadow: 2px 2px #777;
+    -ms-box-shadow: 2px 2px #777;
+    -o-box-shadow: 2px 2px #777;
+	box-shadow: 2px 2px #777;
 }
 
 #project-right {

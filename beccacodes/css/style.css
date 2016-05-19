@@ -136,11 +136,24 @@ header a:hover {
 }
 .work-pic {	
 	width: 90%;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 	border-radius: 15px;
 	display: block;
 	margin: 2em auto;
 	border: solid #000 2px;
 }
+
+.work-pic:hover, .work-pic:active {
+	-moz-box-shadow: 2px 2px #777;
+    -webkit-box-shadow: 2px 2px #777;
+    -ms-box-shadow: 2px 2px #777;
+    -o-box-shadow: 2px 2px #777;
+	box-shadow: 2px 2px #777;
+}
+
 figure {
 	margin: 0;
 }
