@@ -165,5 +165,8 @@ header a:hover {
 	#button {
 		width: 50%;
 	}
+	body {
+		font-size: 16px;
+	}
 }
 
