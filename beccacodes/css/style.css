@@ -147,11 +147,11 @@ header a:hover {
 }
 
 .work-pic:hover, .work-pic:active {
-	-moz-box-shadow: 2px 2px #777;
-    -webkit-box-shadow: 2px 2px #777;
-    -ms-box-shadow: 2px 2px #777;
-    -o-box-shadow: 2px 2px #777;
-	box-shadow: 2px 2px #777;
+	-moz-box-shadow:2px 1px 15px #333;
+    -webkit-box-shadow: 2px 1px 15px #333;
+    -ms-box-shadow: 2px 1px 15px #333;
+    -o-box-shadow: 2px 1px 15px #333;
+	box-shadow: 2px 1px 15px #333;
 }
 
 figure {
@@ -305,7 +305,7 @@ button {
 	#profile-left {
 		width: 70%;
 	}
-	#work-pic {	
+	.work-pic {	
 	border: solid #000 1px;
 }
 }

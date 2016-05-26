@@ -114,12 +114,12 @@ header a:hover {
 	border-radius: 15px;
 }
 
-#project-pic:hover, #project-pic:active {
-	-moz-box-shadow: 2px 2px #777;
-    -webkit-box-shadow: 2px 2px #777;
-    -ms-box-shadow: 2px 2px #777;
-    -o-box-shadow: 2px 2px #777;
-	box-shadow: 2px 2px #777;
+#project-pic:hover, .work-pic:active {
+	-moz-box-shadow:2px 1px 15px #007180;
+    -webkit-box-shadow: 2px 1px 15px #007180;
+    -ms-box-shadow: 2px 1px 15px #007180;
+    -o-box-shadow: 2px 1px 15px #007180;
+	box-shadow: 2px 1px 15px #007180;
 }
 
 #button {
@@ -138,11 +138,11 @@ header a:hover {
 }
 
 #button:hover, #button:active {
-	-moz-box-shadow: 2px 2px #777;
-    -webkit-box-shadow: 2px 2px #777;
-    -ms-box-shadow: 2px 2px #777;
-    -o-box-shadow: 2px 2px #777;
-	box-shadow: 2px 2px #777;
+	-moz-box-shadow:2px 1px 15px #007180;
+    -webkit-box-shadow: 2px 1px 15px #007180;
+    -ms-box-shadow: 2px 1px 15px #007180;
+    -o-box-shadow: 2px 1px 15px #007180;
+	box-shadow: 2px 1px 15px #007180;
 }
 
 #project-right {
@@ -201,5 +201,8 @@ header a:hover {
 	body {
 		font-size: 16px;
 	}
+	#part-two {
+	padding: 0 1.6em 2em;
+}
 }
 
