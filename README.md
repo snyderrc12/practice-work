@@ -1,4 +1,4 @@
-# snyderrc12.github.io
+# Practice Work
 
 This repository contains mostly work that I have done as practice. 
 
