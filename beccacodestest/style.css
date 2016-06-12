@@ -336,9 +336,13 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #ddd;}
+ul.topnav li a:hover {
+	background-color: #ddd;
+}
 
-ul.topnav li a:last-child:hover {background-color: none;}
+ul.topnav li.icon:hover {
+	background-color: #FFF;
+}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
@@ -357,12 +361,16 @@ ul.topnav li.icon {display: none;}
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width:680px) {
   ul.topnav.responsive {
-  	position: relative;
+  	/*position: relative;*/
+  	position: fixed;
+  	right: 0;
+  	top: 0;
   }
   ul.topnav.responsive li.icon {
-    position: absolute;
+    /*position: absolute;
     right: 0;
-    top: 0;
+    top: 0;*/
+    display: none;
   }
   ul.topnav.responsive li {
     float: none;
